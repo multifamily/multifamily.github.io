@@ -29,11 +29,3 @@ PLEASE be careful with your words and actions. We are a community of professiona
 * Repeated harassment of others. In general, if someone asks you to stop, then stop.
 
 If anyone is breaking these rules, we will remove them from the community. We reserve the right to change and update this code of conduct at any point for any reason in order to ensure that our community stays happy, healthy, and welcoming.
-
-<br/>
-<sub>
-  <sup>
-    This code of conduct borrows heavily from the
-    <a href="https://www.locallyoptimistic.com/code_of_conduct/" target="_blank">locallyoptimistic code of conduct</a>
-  </sup>
-</sub>
