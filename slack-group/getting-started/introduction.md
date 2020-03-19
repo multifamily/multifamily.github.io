@@ -20,7 +20,7 @@ If you have not already, please [reach out](/join) to ask for an invite to our S
 
 Once you have received your invite, please do the following:
 
-* Read our code of conduct
+* Read our [code of conduct](/code-of-conduct)
 * Enter your full name (this community will work best if we are all real humans), but feel free to add a custom “display name”
 * Add a headline in the “what I do” box (can be “title @ company” or anything that helps people know who they are chatting with)
   * Important: if you are a vendor, it is required that you list your affiliation in your profile, at a minimum. If you are often discussing your product or your competitors’ products, it’s even better if you can highlight your affiliation in your display name.
@@ -31,7 +31,7 @@ In Slack, remember that channels are free. If you want to start a conversation o
 
 ### Participating in the Slack community
 
-In general, in this community, we trust that everyone will behave in ways that they believe are appropriate. There are some hard-and-fast rules in our code of conduct, which we expect everyone to adhere to: specifically, rules prohibiting harassment and intolerant behavior. However, in general, we prefer to have guidelines for behavior rather than hard-and-fast rules in a way that promotes organic growth and discussion.
+In general, in this community, we trust that everyone will behave in ways that they believe are appropriate. There are some hard-and-fast rules in our [code of conduct](/code-of-conduct), which we expect everyone to adhere to: specifically, rules prohibiting harassment and intolerant behavior. However, in general, we prefer to have guidelines for behavior rather than hard-and-fast rules in a way that promotes organic growth and discussion.
 
 ### Solicitation
 

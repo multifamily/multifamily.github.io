@@ -45,7 +45,7 @@
             {% assign class_active = 'active' %}
           {% endif %}
 
-          <a class="nav-item nav-link pl-4 py-2 {{ class_active }}" href="{{ site.baseurl }}/docs/{{ group.title | downcase | replace: ' ', '-' }}/{{ doc.title | downcase | replace: ' ', '-' | replace: '-&- ', '-'  }}/"><span class="font-weight-normal">{{ doc.title }}</span></a>
+          <a class="nav-item nav-link pl-4 py-2 {{ class_active }}" href="{{ site.baseurl }}/slack-group/{{ group.title | downcase | replace: ' ', '-' }}/{{ doc.title | downcase | replace: ' ', '-' | replace: '-&- ', '-'  }}/"><span class="font-weight-normal">{{ doc.title }}</span></a>
 
           {% endfor %}
 
