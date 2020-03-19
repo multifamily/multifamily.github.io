@@ -16,7 +16,10 @@ Already a member? Head over to [the slack group to join the conversation](https:
 
 We are thrilled you have decided to join our community. We have a growing [Slack community](https://multifamilyhousing.slack.com) where multifamily professionals discuss and share lessons and challenges from their experience in the industry and maintain social connections.
 
-If you have not already, please [reach out](/join) to ask for an invite to our Slack group.
+If you have not already:
+
+<a href="/join" class="btn btn-lg btn-primary">Join Now</a>
+<hr/>
 
 Once you have received your invite, please do the following:
 
