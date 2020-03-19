@@ -1,55 +1,77 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# dependencies
+highlighter:      rouge
+kramdown:
+  auto_ids:       true
+markdown:         kramdown
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# minify
+compress_html:
+  blanklines:     true
+  clippings:      all
 
-# Build settings
-theme: minima
+# permalinks
+permalink:        pretty
+
+# plugins
 plugins:
-  - jekyll-feed
+                  - jekyll-redirect-from
+                  - jekyll-sitemap
+                  - jekyll-toc
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# server
+# baseurl:          "/material" # workaround for our GitHub Pages hosting
+# destination:      "gh-pages/material" # workaround for our GitHub Pages hosting
+encoding:         "UTF-8"
+exclude:
+                  - .babelrc.js
+                  - .eslintignore
+                  - .git
+                  - .gitignore
+                  - .sass-cache/
+                  - assets/
+                  - bower.json
+                  - build/
+                  - docs-assets/
+                  - Gemfile
+                  - Gemfile.lock
+                  - gh-pages/
+                  - lint-vars.sh
+                  - node_modules/
+                  - package.json
+                  - package-lock.json
+                  - README.md
+# host:             0.0.0.0
+# port:             9999
+source:           "."
+url:              "http://multifamily.github.io"
+
+# social
+authors:          "HappyCo"
+description:      "The Multifamily slack group is a way for industry professionals to remain connected to the community and on-going challenges."
+title:            "Multifamily Housing"
+
+# toc
+# toc:
+#   max_level:      4
+#   min_level:      2
+
+# vars
+cdn:
+  bs_css:         "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+  bs_css_docs:    "https://getbootstrap.com/docs/4.1/assets/css/docs.min.css"
+  bs_css_hash:    "sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+  bs_js:          "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+  bs_js_hash:     "sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+  jquery:         "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  jquery_hash:    "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  md_font:        "https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:300,400,700|Roboto+Slab:300,400,700"
+  md_icon:        "https://fonts.googleapis.com/icon?family=Material+Icons"
+  popper:         "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  popper_hash:    "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+current_version:  "4.1.1"
+docs_version:     "4.1"
+id:
+  main:           "doc-main-h1"
+  navbar:         "doc-navbar"
+  navdrawer:      "doc-navdrawer"
+repo:             "https://github.com/multifamily/multifamily.github.io"
