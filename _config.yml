@@ -75,3 +75,5 @@ id:
   navbar:         "doc-navbar"
   navdrawer:      "doc-navdrawer"
 repo:             "https://github.com/multifamily/multifamily.github.io"
+
+theme: jekyll-theme-minimal
